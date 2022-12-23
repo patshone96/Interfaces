@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <h1 class="title">Haga su pedido</h1>
+        </header>
+
+
+        <div class="window-content">
+
+
+            <div class="pane-group">
+
+                <div class="padded-more">
+
+
+                    <div class="pane">
+
+                        <div class="separar">
+
+                            <img class="img-circle media-object pull-left" src="./images_pizza/1.png" width="30"
+                                height="30">
+                            <br>
+                            <br>
+
+                            <div class="form-group">
+
+                                <label><span class="icon icon-user"></span> Nombre</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" />
+                            </div>
+
+                            <div class="form-group">
+                                <label> <span class="icon icon-phone"></span> Teléfono</label>
+                                <input type="text" class="form-control" id="tel" name="tel" placeholder="Teléfono" />
+                            </div>
+
+                            <div class="form-group">
+                                <label><span class="icon icon-address"></span> Dirección</label>
+                                <input type="text" class="form-control" id="addr" name="addr" placeholder="Dirección" />
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="pane">
+                    <ul class="list-group">
+                        <li class="list-group-item"> <img class="img-circle media-object pull-left"
+                                src="./images_pizza/2.png" alt="" height="30" width="30"></li>
+                        <li class="list-group-item">
+                            <input type="radio" name="tam" id="peque"> <label>Pequeña</label>
+                            <img class="img-circle media-object pull-right" src="./images_pizza/pizza1.png" width="24"
+                                height="24">
+                        </li>
+                        <li class="list-group-item">
+                            <input type="radio" name="tam" id="mediana"> <label>Mediana</label>
+                            <img class="img-circle media-object pull-right" src="./images_pizza/pizza1.png" width="32"
+                                height="32">
+                        </li>
+                    
+                        <li class="list-group-item">
+                            <input type="radio" name="tam" id="grande"> <label>Grande</label>
+                            <img class="img-circle media-object pull-right" src="./images_pizza/pizza1.png" width="46"
+                                height="46">
+                        </li>
+                    </ul>
+
+                    <ul class="list-group">
+
+                        <li class="list-group-item"> <img class="img-circle media-object pull-left"
+                                src="./images_pizza/3.png" alt="" height="30" width="30"></li>
+
+                        <li class="list-group-item">
+                            <input type="radio" name="grosor" id="delgada"> <label>Delgada</label>
+                            <img class="img-circle media-object pull-right" src="./images_pizza/pizza2.png" width="32"
+                                height="24">
+                        </li>
+
+                        <li class="list-group-item">
+                            <input type="radio" name="grosor" id="gruesa"> <label>Gruesa</label>
+                            <img class="img-circle media-object pull-right" src="./images_pizza/pizza2.png" width="32"
+                                height="46">
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+
+                <div class="pane">
+                    <div class="padded-more">
+                    <ul class="list-group">
+                        <li><img class="img-circle media-object pull-left" src="./images_pizza/4.png" width="30"
+                                height="30"></li>
+                        <div id="ingredientes"></div>
+                    </ul>
+                </div>
+                <div id="prueba"></div>
+            </div>
+
+          
+            </div>
+
+           
+        </div>
+
+
+        
+
+
+        <footer class="toolbar toolbar-footer">
+            <button class="btn btn-default pull-right" id="cancel">Cancel</button>
+            <button class="btn btn-primary pull-right" id="accept">Accept</button>
+        </footer>
+    </div>
+
+    <script src="funcionesPizza.js"></script>
+</body>
+
+</html>

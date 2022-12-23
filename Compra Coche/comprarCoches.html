@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/photon.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="window">
+        <header class="toolbar toolbar-header">
+          <h1 class="title">Elije tu coche</h1>
+        </header>
+        <div class="window-content">
+          <div class="pane-group">
+            <div class="padded-more">
+            <div class="pane">
+                <div id="marcas"></div>
+
+                <h3>Modelo</h3>
+                
+                <input type="text" id="modelo">
+                <br>
+
+                <h3>Matrícula</h3>
+               
+                <input type="text" id="matricula">
+                <br>
+                <h3>Carburanteurante</h3>
+                <div class="radio">
+                    <label>
+                       <input type="radio" name="Carburante" id="gas" value="Gasolina">Gasolina
+                    </label>
+                 
+                
+                    <label>
+                       <input type="radio" name="Carburante" id="elec" value="Electrico">Eléctrico
+                    </label>
+                 </div>
+
+                 <h3>Color</h3>
+                <input type="text" id="color">
+                <br>
+
+                <h3>Motor</h3>
+                <div class="radio">
+                    <label>
+                       <input type="radio" name="Motor" id="3" value="3.3CV">3.3CV
+                    </label>
+                    <br>
+                 
+                
+                    <label>
+                       <input type="radio" name="Motor" id="5" value="5.7CV">5.7 CV
+                    </label>
+                    <br>
+
+                    <label>
+                        <input type="radio" name="Motor" id="6" value="6.3CV">6.3 CV
+                     </label>
+                 </div>
+
+                 <div id="salida"></div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+          </div>
+
+          
+        </div>
+
+
+        <footer class="toolbar toolbar-footer">
+       
+            <button class="btn btn-positive pull-right" id="guardar">Guardar</button>
+        
+        </footer>
+      </div>
+    <script src="comprarCoches.js"></script>
+    
+</body>
+</html>

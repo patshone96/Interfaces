@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+</head>
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+           <h1 class="title" id="muestra">Test</h1>
+        </header>
+        <!--Contenido principal-->
+        <div class="window-content">
+          
+            <div class="pane-group">
+
+
+                <div class="pane">
+
+                  <div class="padded-more">
+                     <div class="form-group">
+                        <label><span class="icon icon-user"></span> Nombre</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" />
+                     </div>
+                     <div class="form-group">
+                        <label><span class="icon icon-user"></span> Apellidos</label>
+                        <input type="text" class="form-control" id="ape" name="ape" placeholder="Apellidos" />
+                     </div>
+                     <div class="form-group">
+                        <label><span class="icon icon-tag"></span> Edad</label>
+                        <input type="number" class="form-control" id="age" name="age" placeholder="0" min="0" max="120"/>
+                     </div>
+                     <div class="form-group">
+                        <label><span class="icon icon-mail"></span> Mail</label>
+                        <input type="text" class="form-control" id="mail" name="mail" placeholder="Mail" />
+                     </div>
+                     <div class="form-group">
+                        <label><span class="icon icon-phone"></span> Phone</label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="000000000" />
+                     </div>
+                  </div>
+
+
+                </div>
+               <div class="pane">
+                  <div class="padded-more">
+                     <h3><span class="icon icon-globe"></span> Destinos</h1>
+                  <div id="right">
+                  </div>
+                  <h3><span class="icon icon-calendar"></span> Fechas</h3>
+                  <h4>Ida:</h4>
+                  <br>
+                  <input type="date" name="ida" id="ida">
+                  <br>
+                  <br>
+                  <h4>Vuelta:</h4>
+                  <br>
+                  <input type="date" name="vuelta" id="vuelta">
+
+
+                  </div>
+               </div>
+            </div>
+           
+  
+     
+      </div>
+  
+        <footer class="toolbar toolbar-footer">
+           <div class="toolbar-actions">
+              <button class="btn btn-primary pull-right" id="cancelar">
+                 Cancelar
+              </button>
+              <button class="btn btn-primary pull-right" id="confirmar">
+               Confirmar
+            </button>
+           </div>
+        </footer>
+     </div>
+     <script src="reservaViaje.js"></script>
+    
+</body>
+</html>

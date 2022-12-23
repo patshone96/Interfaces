@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/photon.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="toolbar toolbar-header">
+        <h1 class="title">Header with actions</h1>
+      
+        <div class="toolbar-actions">
+          <div class="btn-group">
+            <button class="btn btn-default">
+              <span class="icon icon-home"></span>
+            </button>
+            <button class="btn btn-default">
+              <span class="icon icon-folder"></span>
+            </button>
+           
+          </div>
+      
+      
+        </div>
+      </header>
+
+      <table class="table-striped">
+        <caption>Alumnos</caption>
+        
+        <thead>
+            <tr> 
+                <th>Grupo</th> 
+                <th>Nombre</th> 
+                <th>Nota</th> 
+            </tr>
+        </thead>
+        
+        <tbody id="table"></tbody>
+       
+      </table>
+      
+          
+      <footer class="toolbar toolbar-footer">
+        <div class="toolbar-actions">
+          <button class="btn btn-default" id="cancel">
+            Cancel
+          </button>
+
+          <button class="btn btn-default" id="edit">
+            Editar
+          </button>
+
+          <button class="btn btn-default" id="new">
+            Nuevo
+          </button>
+      
+          <button class="btn btn-primary pull-right" id="save">
+            Save
+          </button>
+        </div>
+      </footer>
+
+      <script src="tabla.js"></script>
+    
+</body>
+</html>

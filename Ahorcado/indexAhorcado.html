@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/photon.min.css">
+    <link rel="stylesheet" href="./css/ahorcado.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="window">
+        <header class="toolbar toolbar-header">
+          <h1 class="title">Ahorcado</h1>
+        </header>
+
+        <div class="window-content">
+          <div class="pane-group">
+            <div class="pane-sm sidebar">
+                <div class="list-group">
+
+
+                    <li class="list-group-item">
+
+                        <h3>Jugador 1:</h3>
+
+                        <h4>Palabra</h4>
+    
+                        <input type="password" name="secreto" id="secreto" placeholder="Palabra a adivinar">
+
+                    </li>
+
+                   <li class="list-group-item">
+
+
+                    <h3>Jugador 2:</h3>
+
+                    <h4>Letra</h4>
+
+                    <input type="text" name="adivina" id="adivina" placeholder="Letra">
+                    
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="huecos" disabled>
+                    
+                    <br>
+                    <br>
+
+                    <button class="btn btn-positive" id="reiniciar">Reiniciar</button>
+
+                   </li>
+
+
+            </div>
+  
+          </div>
+
+          <div class="pane">
+            <img src="./img/0.png" alt="ahorcado" id="image">
+          </div>
+        </div>
+   
+      </div>
+  </div>
+
+    
+    <script src="functionsAhorcado.js"></script>
+</body>
+</html>

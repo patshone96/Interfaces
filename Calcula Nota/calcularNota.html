@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/photon.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+          <h1 class="title">Calcula tu nota</h1>
+        </header>
+        <div class="window-content">
+          <div class="pane-group">
+            <div class="padded-more">
+            <div class="pane">
+
+                <h2>Nota Tarea 1:</h2>
+                <br>
+                <input type="number" id="tarea1" placeholder="0" min="0" max="10" style="font-size: 1rem;">
+                <br>
+                <br>
+                <h2>Nota Tarea 2:</h2>
+                <br>
+                <input type="number" id="tarea2" placeholder="0" min="0" max="10" style="font-size: 1rem;">
+                <br>
+                <br>
+                <h2>Nota Examen:</h2>
+                <br>
+                <input type="number" id="examen" placeholder="0" min="0" max="10" style="font-size: 1rem;">
+
+
+            </div>
+        </div>
+
+        <div class="pane">
+            <div class="padded-more">
+                <div id="result">
+
+                </div>
+            </div>
+          </div>
+          </div>
+
+          
+        </div>
+
+
+        <footer class="toolbar toolbar-footer">
+       
+            <button class="btn btn-positive pull-right" style="font-size: 2rem; margin: 1rem;" id="calcular">Calcular</button>
+        
+        </footer>
+      </div>
+
+      <script src="calcularNota.js"></script>
+    
+</body>
+</html>
