@@ -1,0 +1,29 @@
+
+table{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+td {
+  background: rgb(235, 208, 55);
+  color: rgb(1, 2, 13);
+  transition: 0.2s;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 1.2rem;
+  
+
+}
+
+td:hover {
+  background: rgb(236, 131, 66);
+  color: rgb(1, 2, 13);
+  transition: 0.2s;
+}
+
+strong {
+  display: block;
+ background-color: rgb(246, 66, 16);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 1.5rem;
+  color: black;
+}

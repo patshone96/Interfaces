@@ -1,0 +1,198 @@
+.window {
+    background-color: #edc912;
+
+
+}
+
+
+.left-dialog{
+    width: 500px;
+    height: 100%;
+    right: auto;
+    left: 0;
+    border-radius: 0;
+}
+
+dialog {
+  width: 500px;
+  height: 100%;
+  right: 0;
+  left: auto;
+  border-radius: 0;
+
+
+}
+
+form{
+    padding: 1.2rem;
+    background-color: #edc912;
+    
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ee4a4a;
+}
+
+::placeholder{
+    color: #0e0d0d;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: #edc912;
+
+}
+
+input:focus {
+    background-color: #ee4a4a;
+
+}
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: #edc912;
+
+}
+
+select:focus {
+    background-color: #ee4a4a;
+
+}
+
+.custom-btn{
+    margin-top: 1rem;
+    background-color:#edc912;
+    color:black;
+    transition: 0.5s;
+    border: black 2px solid; 
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 10rem;
+    text-decoration: none;
+    padding: 0.2rem; 
+     
+}
+
+
+.custom-btn-main{
+    margin-top: 1rem;
+    background-color:#edc912;
+    color:black;
+    transition: 0.5s;
+    border: black 2px solid; 
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 10rem;
+    text-decoration: none;
+    padding: 0.2rem; 
+    margin-left: 10rem;
+
+}
+
+.custom-btn-main:hover{
+    background-color: #ee4a4a;
+    color: #edc912;
+    transition: 0.5s;
+ 
+}
+
+.custom-btn:hover{
+    background-color: #ee4a4a;
+    color: #edc912;
+    transition: 0.5s;
+ 
+}
+
+
+.wrapper {
+    border: none; 
+    background-color: #edc912;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    
+}
+
+.wrapper > div {
+    border: 5px solid #ee4a4a;
+    border-radius: 5px;
+    background-color: #edc912;
+    padding: 1em;
+    color: #0e0d0d;
+    margin-bottom: 2rem;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+
+
+footer{
+    height: 3rem;
+    padding-top: 0.5rem;
+    
+}
+
+header{
+    background-color: #ee4a4a;
+}
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #edc912;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #ee4a4a ;
+    color: white;
+    transform: rotateY(180deg);
+    text-align: justify;
+    overflow: scroll;
+    padding: 1rem;
+  }
+

@@ -1,0 +1,67 @@
+[
+
+    {
+        "title": "The Last of Us",
+        "year": 2023,
+        "desc": "The Last of Us es una serie de televisión estadounidense postapocalíptica que se estrenó el 15 de enero de 2023 a través de HBO. Basada en el videojuego de 2013 del mismo nombre desarrollado por Naughty Dog, la serie sigue a Joel (Pedro Pascal), un contrabandista encargado de escoltar a la adolescente Ellie (Bella Ramsey) a través de un Estados Unidos postapocalíptico. También cuenta con Tommy (Gabriel Luna), el hermano menor de Joel y exsoldado.",
+        "genre": "Terror",
+        "img": "tlou.jpg"
+    },
+    {
+        "title": "Mare of Easttown",
+        "year": 2021,
+        "desc": "Mare Sheehan es una detective de una pequeña ciudad de Pensilvania que investiga un asesinato local en un momento en que su propia vida se desmorona a su alrededor.",
+        "genre": "Thriller",
+        "img": "moe.jpg"
+    },
+    {
+        "title": "The White Lotus 1",
+        "year": 2021,
+        "desc": "The White Lotus «sigue las vacaciones de varios huéspedes del hotel durante una semana mientras se relajan y rejuvenecen en el paraíso. Pero con cada día que pasa, surge una complejidad más oscura en estos viajeros perfectos, los alegres empleados del hotel y el lugar idílico en sí»",
+        "genre": "Comedia",
+        "img": "twl1.jpg"
+    },
+    {
+        "title": "The White Lotus 2",
+        "year": 2022,
+        "desc": "La temporada 2 de 'The White Lotus' cambia de ubicación y huéspedes. En el universo de la serie, el White Lotus es una cadena internacional de resorts caros y lujosos. Michael Imperioli interpreta a un personaje llamado Dominic Di Grasso, un hombre que viaja para descubrir sus raíces sicilianas con su anciano padre y su hijo, recién graduado en la universidad. Aubrey Plaza también está a bordo, en el papel de una mujer de vacaciones con su esposo y una pareja de amigos.",
+        "genre": "Comedia",
+        "img": "twl2.jpg"
+    },
+    {
+        "title": "Todo Lo Otro",
+        "year": 2021,
+        "desc": "Dafne (Abril Zamora) es una mujer que tiene un trabajo aburrido del que encima le despiden, le acaba de dejar su novio y, para colmo, va a descubrir que está enamorada de su mejor amigo, César, un asturiano desmotivado que además es su compañero de piso. Sus amigos también están muy perdidos, sus ligues no son lo que ella espera y hasta su exjefa no es feliz con la vida que lleva. Todo su entorno parece perderse y Dafne se pregunta, ¿para qué quiero yo raíces cuadradas? ¿no sería mejor que me enseñaran a sobrellevar que la persona que más quieres en el mundo no te quiera?",
+        "genre": "Comedia",
+        "img": "tlo.jpg"
+    },
+    {
+        "title": "Maricón Perdido",
+        "year": 2021,
+        "desc": "Roberto, con tan solo 12 años, comienza una búsqueda de identidad que se alargará hasta diez años más tarde, cuando en Chueca y con vocación de ser escritor, intentará reformular su vida intentando responderse a la pregunta de quién es y cómo ser feliz en un mundo tan hostil.",
+        "genre": "Drama",
+        "img": "mp.jpg"
+    },
+    {
+        "title": "Harley Quinn",
+        "year": 2019,
+        "desc": "La serie sigue las aventuras de Harley Quinn después de que ella rompe con Joker y recibe ayuda de Hiedra Venenosa, Clayface, Doctor Psycho, King Shark y Sy Borgman, en sus planes para convertirse en miembro de la Legion of Doom.",
+        "genre": "Acción",
+        "img": "hq.jpg"
+    },
+    {
+        "title": "La Casa del Dragón",
+        "year": 2022,
+        "desc": "La casa del dragón (en inglés: House of the Dragon) es una serie de televisión estadounidense de fantasía, drama, romance y acción dirigida por Clare Kilner, Geeta Patel, Miguel Sapochnik y Greg Yaitanes. El guion ha sido escrito por Ryan Condal, George R. R. Martin y Miguel Sapochnik y producida por HBO. Se estrenó el 21 de agosto de 2022. La primera temporada que consta de diez episodio está protagonizada por Emma D'Arcy, Paddy Considine, Matt Smith, Olivia Cooke y Rhys Ifans",
+        "genre": "Acción",
+        "img": "lcdd.jpg"
+    }
+   
+
+   
+
+
+
+    
+
+]

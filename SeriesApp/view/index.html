@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tu Catálogo de Series</title>
+    <link rel="stylesheet" href="./css/photon.css" />
+    <script src="../node_modules/xel/xel.js" type="module"></script>
+    <meta name="xel-theme" content="../node_modules/xel/themes/cupertino.css" />
+    <meta name="xel-iconsets" content="../node_modules/xel/iconsets/fluent.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="window">
+      <header class="toolbar toolbar-header"></header>
+      <div class="window-content">
+        <div class="pane-group">
+
+    
+          <div class="pane">
+            <div class="wrapper" id="wrapper"></div>
+          </div>
+
+         
+
+          
+        </div>
+      </div>
+
+      <footer class="toolbar toolbar-footer">
+
+      
+
+        <x-box>
+          <x-button style="margin-left: 25%; background-color: #edc912;">
+            <x-label style=" font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;">Buscar</x-label>
+            <x-icon href="#search"></x-icon>
+            <dialog class="left-dialog">
+              <form>
+                <div class="form-group">
+                  <label>Titulo</label>
+                  <input
+                    id="buscarTitle"
+                    type="text"
+                    class="form-control"
+                    placeholder="Titulo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Año</label>
+                  <input
+                    id="buscarYear"
+                    type="number"
+                    class="form-control"
+                    placeholder="Año"
+                    min="1940"
+                    max="2023"
+                  />
+                </div>
+
+                <div>
+                  <label>Género</label>
+                  <select class="form-control" id="buscarGenre">
+                    <option>Acción</option>
+                    <option>Comedia</option>
+                    <option>Drama</option>
+                    <option>Aventuras</option>
+                    <option>Terror</option>
+                    <option>Thriller</option>
+                    <option>Familiar</option>
+                  </select>
+                </div>
+
+                <div class="form-actions">
+                  <button class="custom-btn" id="btnBuscar">Buscar</button>
+                </div>
+              </form>
+
+             
+
+              
+            </dialog>
+          </x-button>
+
+          <x-button style="margin-left: 10px; background-color: #edc912;">
+            <x-label style=" font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;">Añadir Serie</x-label>
+            <x-icon href="#note"></x-icon>
+            <dialog>
+              <form>
+                <div class="form-group">
+                  <label>Titulo</label>
+                  <input
+                    id="addTitle"
+                    type="text"
+                    class="form-control"
+                    placeholder="Titulo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Año</label>
+                  <input
+                    id="addYear"
+                    type="number"
+                    class="form-control"
+                    placeholder="Año"
+                    min="1940"
+                    max="2023"
+                  />
+                </div>
+
+                <div>
+                  <label>Género</label>
+                  <select class="form-control" id="addGenre">
+                    <option>Acción</option>
+                    <option>Comedia</option>
+                    <option>Drama</option>
+                    <option>Aventuras</option>
+                    <option>Terror</option>
+                    <option>Thriller</option>
+                    <option>Familiar</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Description</label>
+                  <textarea
+                    class="form-control"
+                    rows="2"
+                    id="addDesc"
+                  ></textarea>
+                </div>
+
+                <div class="form-actions">
+                  <button class="custom-btn" id="btnAddSeries">Añadir</button>
+                  <button class="custom-btn" id="btnCancelAdd">Cancelar</button>
+                </div>
+              </form>
+
+              
+            </dialog>
+          </x-button>
+
+          <x-button style="margin-left: 10px; background-color: #edc912;">
+            <x-label style=" font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;">Modificar Serie</x-label>
+            <x-icon href="#note"></x-icon>
+            <dialog class="left-dialog">
+              <form>
+                <div class="form-group">
+                  <label>Titulo</label>
+                  <input
+                    id="modTitle"
+                    type="text"
+                    class="form-control"
+                    placeholder="Titulo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Año</label>
+                  <input
+                    id="modYear"
+                    type="number"
+                    class="form-control"
+                    placeholder="Año"
+                    min="1940"
+                    max="2023"
+                  />
+                </div>
+
+                <div>
+                  <label>Género</label>
+                  <select class="form-control" id="modGenre">
+                    <option>Acción</option>
+                    <option>Comedia</option>
+                    <option>Drama</option>
+                    <option>Aventuras</option>
+                    <option>Terror</option>
+                    <option>Thriller</option>
+                    <option>Familiar</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Description</label>
+                  <textarea
+                    class="form-control"
+                    rows="2"
+                    id="modDesc"
+                  ></textarea>
+                </div>
+
+                <div class="form-actions">
+                  <button class="custom-btn" id="btnModSeries">Añadir</button>
+                  <button class="custom-btn" id="btnCancelMod">Cancelar</button>
+                </div>
+              </form>
+            </dialog>
+          </x-button>
+
+          <x-button id="eliminar" style="margin-left: 10px; background-color: #edc912;">
+            <x-label style=" font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;"> Eliminar</x-label>
+            <x-icon href="#delete"></x-icon>
+            <dialog>
+              <form>
+                <div class="form-group">
+                  <label>Título Específico</label>
+                  <input type="text" id="borrarTitle" class="form-control" />
+                </div>
+
+                <button class="custom-btn" id="delete">Borrar</button>
+              </form>
+
+            </dialog>
+          </x-button>
+
+          <x-button id="btnTodos" style="margin-left: 10px; background-color: #edc912;">
+            <x-label style=" font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;">Mostrar Todas</x-label>
+            <x-icon href="#home"></x-icon>
+          </x-button>
+        </x-box>
+      </footer>
+    </div>
+
+    <script src="../controller/index.js"></script>
+  </body>
+</html>

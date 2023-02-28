@@ -1,0 +1,53 @@
+.wrapper {
+    border: 2px solid #5c5a5a;
+    border-radius: 5px;
+    background-color: #fffffe;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: black;
+
+}
+
+h2{
+  font-size: 1rem;
+  color: #0e0d0d;
+  font-weight: bold;
+}
+
+.wrapper > div {
+    border: 2px solid #8a8585;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 1em;
+    color: #0e0d0d;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+label {
+  font-size: large;
+
+}
+
+strong {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+
+  margin-left: 0.5rem;
+
+}
