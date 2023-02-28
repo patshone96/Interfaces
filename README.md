@@ -1,6 +1,8 @@
 # Interfaces
  
 Interfaces developed using JS, HTML and CSS - With ELECTRON and PHOTON. Also using Boostrap, and Xel as node modules. And express to develop REST APIs and MongoDb to store data in a non-relational DBMS. 
+
+![Cool IT room image. 8-bit rendition courtesy of DallE2](https://github.com/patshone96/Interfaces/blob/main/DALL%C2%B7E%202023-02-28%2022.56.56%20-%208-bit%20IT%20developer%20room%20with%20lots%20of%20colors.png)
  
 
 
@@ -21,6 +23,8 @@ To try the code you just have to:
 
 ## Projects
 
+![Cool IT room image. Pixel art rendition courtesy of DallE2](https://github.com/patshone96/Interfaces/blob/main/DALL%C2%B7E%202023-02-28%2022.56.24%20-%20pixel%20art%20IT%20developer%20room%20with%20lots%20of%20colors.png)
+
 ## Basics
 
 
@@ -30,7 +34,7 @@ To try the code you just have to:
 
 + [Grade Calculator](https://github.com/patshone96/Interfaces/tree/main/Calcula%20Nota)
 
-+ [Temperature Conversor 🤒](https://github.com/patshone96/Interfaces/tree/main/Conversor%20Temperatura)
++ [Temperature Conversor  🤒](https://github.com/patshone96/Interfaces/tree/main/Conversor%20Temperatura)
 
 
 ## Games
@@ -38,7 +42,7 @@ To try the code you just have to:
 
 + [Hangman Game](https://github.com/patshone96/Interfaces/tree/main/Ahorcado)
 
-+ [Navi Wars! ship 🚢 ](https://github.com/patshone96/Interfaces/tree/main/Hundir%20la%20Flota)
++ [Navi Wars!  🚢 ](https://github.com/patshone96/Interfaces/tree/main/Hundir%20la%20Flota)
 
 
 ## CRUD
@@ -49,29 +53,29 @@ To try the code you just have to:
 
 + [Contextual Menu](https://github.com/patshone96/Interfaces/tree/main/Menu)
 
-+ [Ordering Pizza 🍕](https://github.com/patshone96/Interfaces/tree/main/Pedir%20Pizza)
++ [Ordering Pizza  🍕](https://github.com/patshone96/Interfaces/tree/main/Pedir%20Pizza)
 
-+ [Booking a Travel Manager 🛫 ](https://github.com/patshone96/Interfaces/tree/main/Reserva%20Viaje)
++ [Booking a Travel Manager  🛫 ](https://github.com/patshone96/Interfaces/tree/main/Reserva%20Viaje)
 
 + [Appliances Strore Manager](https://github.com/patshone96/Interfaces/tree/main/Tienda%20Electrodom%C3%A9sticos)
 
-+ [Buy a Car Manager 🚘 ](https://github.com/patshone96/Interfaces/tree/main/Compra%20Coche)
++ [Buy a Car Manager  🚘 ](https://github.com/patshone96/Interfaces/tree/main/Compra%20Coche)
 
 
 ## Express
 
  
- + [Films Catalogue App 🎥 ](https://github.com/patshone96/Interfaces/tree/main/FilmsAppExpress)
+ + [Films Catalogue App  🎥 ](https://github.com/patshone96/Interfaces/tree/main/FilmsAppExpress)
 
- + [Book Catalogue App 1 📕](https://github.com/patshone96/Interfaces/tree/main/BookCatalogueExpress)
+ + [Book Catalogue App 1  📕](https://github.com/patshone96/Interfaces/tree/main/BookCatalogueExpress)
 
 
 ## Mongo
 
 
- + [Book Catalogue App 2 📚 ](https://github.com/patshone96/Interfaces/tree/main/BookCatalogueMongo)
+ + [Book Catalogue App 2  📚 ](https://github.com/patshone96/Interfaces/tree/main/BookCatalogueMongo)
 
- + [Tabled Separated Films 🎞️](https://github.com/patshone96/Interfaces/tree/main/MongoTable)
+ + [Tabled Separated Films  🎞️](https://github.com/patshone96/Interfaces/tree/main/MongoTable)
  
  + [Task List](https://github.com/patshone96/Interfaces/tree/main/TaskList)
  
