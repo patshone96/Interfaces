@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>libros</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/photon.css">
+  <script src="node_modules/xel/xel.js" type="module"></script>
+  <meta name="xel-theme" content="node_modules/xel/themes/cupertino.css">
+  <meta name="xel-iconsets" content="node_modules/xel/iconsets/fluent.svg">
+</head>
+
+<body>
+  <div class="window">
+    <header class="toolbar toolbar-header">
+    </header>
+    <div class="window-content">
+      <div class="pane-group">
+
+        <!--panel imágenes-->
+        <div class="pane">
+          <div class="wrapper" id="wrapper">
+
+
+          </div>
+        </div>
+
+      </div>
+      
+
+     
+    </div>
+
+    <footer class="toolbar toolbar-footer">
+     <x-box>
+        <x-button style="margin-left:20%">
+            <x-label>Búsquedas</x-label>
+            <x-icon href="#search"></x-icon>
+            <dialog style="width: 300px;
+            height: 100%;
+            right: 0;
+            left: auto;
+            border-radius: 0;">
+
+              <x-box vertical style="margin-left: 30px; margin-top: 50px;">
+                
+                <x-box>
+                  <x-input id="txtBuscarAutor">
+                    <x-icon href="#search"></x-icon>
+                    <x-label>Buscar por Autor</x-label>
+                  </x-input>
+                  <x-button style="margin-left: 10px;" id="btnBuscarAutor">
+                    <x-icon href="#search"></x-icon>
+                  </x-button>
+                </x-box>
+        
+                <x-box style="margin-top: 50px;">
+                  <x-input id="txtBuscarLibro">
+                    <x-icon href="#search"></x-icon>
+                    <x-label>Buscar por Titulo</x-label>
+                  </x-input>
+                  <x-button style="margin-left: 10px;" id="btnBuscarLibro">
+                    <x-icon href="#search"></x-icon>
+                  </x-button>
+        
+                </x-box>
+              
+              </x-box>
+        
+              <x-notification id="notificacion" timeout="2000" style="font-size: larger;"></x-notification>
+             </dialog>
+        
+        </x-button>
+
+        <x-button style="margin-left:10px">
+            <x-label>Nuevo Libro</x-label>
+            <x-icon href="#note"></x-icon>
+            <dialog style="width: 300px;
+            height: 100%;
+            right: 0;
+            left: auto;
+            border-radius: 0;">
+
+              <x-box vertical style="margin-left: 30px; margin-top: 50px;">
+                
+                
+                  <x-input id="titulo">
+                    <x-icon href="#note"></x-icon>
+                    <x-label>Titulo</x-label>
+                  </x-input>
+             
+        
+                
+                  <x-input id="autor">
+                    <x-icon href="#note"></x-icon>
+                    <x-label>Autor</x-label>
+                  </x-input>
+
+                  
+                    <x-input id="imagen">
+                      <x-icon href="#note"></x-icon>
+                      <x-label>Imagen</x-label>
+                    </x-input>
+
+               
+                
+                <x-box style="margin-left: 10%; margin-top: 50px;">
+                  <x-button style="margin-left: 10px;" id="btnSend">
+                    <x-label>Enviar</x-label>
+                    <x-icon href="#note"></x-icon>
+                  </x-button>
+                </x-box>
+              </x-box>
+        
+              <x-notification id="not" timeout="2000" style="font-size: larger;"></x-notification>
+             </dialog>
+        </x-button>
+
+        <x-button id="eliminar" style="margin-left:10px">
+          <x-label> Eliminar</x-label>
+          <x-icon href="#delete"></x-icon>
+          <dialog style="width: 300px;
+            height: 100%;
+            right: 0;
+            left: auto;
+            border-radius: 0;">
+
+              <x-box vertical style="margin-left: 30px; margin-top: 50px;">
+                
+                
+        
+                <x-box style="margin-top: 50px;">
+                  <x-input id="txtEliminarTitulo">
+                    <x-icon href="#search"></x-icon>
+                    <x-label>Eliminar por Titulo</x-label>
+                  </x-input>
+                  <x-button style="margin-left: 10px;" id="btnEliminarTitulo">
+                    <x-icon href="#delete"></x-icon>
+                  </x-button>
+        
+                </x-box>
+              
+              </x-box>
+        
+              <x-notification id="notif" timeout="2000" style="font-size: larger;"></x-notification>
+             </dialog>
+      </x-button>
+
+        <x-button id="btnTodos" style="margin-left:10px">
+            <x-label>Todos</x-label>
+            <x-icon href="#home"></x-icon>
+        </x-button>
+     </x-box>
+
+    
+    </footer>
+
+   
+  </div>
+
+  
+
+  <script src="./pintar.js"></script>
+</body>
+
+</html>
